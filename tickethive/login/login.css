@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #2d0b5b, #6e42c1);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    background: white;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2d0b5b;
+  }
+  
+  .login-form p {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .actions {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  .actions button {
+    padding: 0.8rem;
+    background: #2d0b5b;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .actions button:hover {
+    background: #1b0642;
+  }
+  
+  .forgot-password {
+    font-size: 0.85rem;
+    color: #6e42c1;
+    text-decoration: none;
+  }
+  
+  .social-login {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  .social-login p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-login .icons img {
+    width: 32px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+  }
+  
+  .social-login .icons img:hover {
+    transform: scale(1.1);
+  }
+  
+  .register-link {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .register-link a {
+    color: #6e42c1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

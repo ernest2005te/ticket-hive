@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tickethive</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-S6GA+rOZ+qW4vb0wMe0/2hA/AbQ6dc9Oj3+iGQUHD0+eMC5OT8rpToOGuRxwPFRIB0DfgFwUvKn/qLK4bZkRwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <header>
+    <h1>Tickethive</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Buy Tickets</a></li>
+        <li><a href="#">Sell Tickets</a></li>
+        <ii><a href="#">Previous Events</a></ii>
+        <li><a href="http://127.0.0.1:5503/login/login.html#">Login</a></li>
+      </ul>
+    </nav>
+    <input type="text" id="search" placeholder="Search events..." />
+  </header>
+
+  <section class="ads">
+    <div class="ad-slider">
+      <div class="ad">🔥 50% OFF for Early Birds!</div>
+      <div class="ad">🎉 Summer Bash 2025 – Book Now!</div>
+      <div class="ad">🎵 AfroFest Tickets Selling Fast!</div>
+    </div>
+  </section>
+
+  <main id="events">
+    <!-- JS will populate event cards here -->
+  </main>
+
+  <div id="payment-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Mobile Money Payment</h2>
+      <p>Enter your phone number:</p>
+      <input type="tel" placeholder="e.g. 0781234567" />
+      <button class="pay-now">Pay Now</button>
+    </div>
+  </div>
+  <footer class="footer">
+    <p>&copy; 2025 Tickethive. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://facebook.com/tickethive" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com/tickethive" target="_blank" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://instagram.com/tickethive" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://tiktok.com/@tickethive" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="https://youtube.com/@tickethive" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+
+  <script src="pervious.js"></script>
+</body>
+</html>

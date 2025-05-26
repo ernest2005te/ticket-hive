@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | Tickethive</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-S6GA+rOZ+qW4vb0wMe0/2hA/AbQ6dc9Oj3+iGQUHD0+eMC5OT8rpToOGuRxwPFRIB0DfgFwUvKn/qLK4bZkRwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script defer src="login.js"></script>
+</head>
+<body>
+
+<div class="login-container">
+  <form class="login-form" id="loginForm">
+    <h2>Login to Tickethive</h2>
+    <p>Welcome back! Please login to your account.</p>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" placeholder="example@email.com" required>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Your password" required>
+
+    <div class="actions">
+      <button type="submit">Login</button>
+      <a href="#" class="forgot-password">Forgot Password?</a>
+    </div>
+
+    <div class="social-login">
+      <p>Or sign in with:</p>
+      <div class="icons">
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Twitter"></a>
+        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" alt="Google"></a>
+      </div>
+    </div>
+
+    <p class="register-link">Don't have an account? <a href="http://127.0.0.1:5503/register/register.html">Register</a></p>
+  </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Details | Tickethive</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Tickethive</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Buy Tickets</a></li>
+        <li><a href="#">Sell Tickets</a></li>
+        <li><a href="#">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="event-container">
+    <img src="erne.webp" alt="Event Banner" class="event-banner" />
+    <div class="event-info">
+      <h1 class="event-title">Kampala Vibes Festival 2025</h1>
+      <p class="event-meta">📍 Kololo Airstrip | 🕓 5:00 PM, 21st June 2025</p>
+      <p class="event-description">
+        Experience the biggest night of music, culture, and food in Uganda! 
+        Join thousands as top local and international artists light up the city with good vibes and unforgettable performances.
+      </p>
+      <div class="tickets">
+        <h2>Select Ticket</h2>
+        <label><input type="radio" name="ticket" value="ordinary"> Ordinary - UGX 50,000</label><br>
+        <label><input type="radio" name="ticket" value="vip"> VIP - UGX 150,000</label>
+      </div>
+
+      <div class="payment">
+        <h2>Pay with Mobile Money</h2>
+        <input type="text" id="phone" placeholder="Enter Phone Number" />
+        <button onclick="payNow()">Pay Now</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tickethive. All rights reserved.</p>
+  </footer>
+
+  <script src="event-details.js"></script>
+</body>
+</html>

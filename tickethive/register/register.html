@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register | Tickethive</title>
+  <link rel="stylesheet" href="register.css">
+  <script defer src="register.js"></script>
+</head>
+<body>
+
+<div class="register-container">
+  <form class="register-form" id="registerForm">
+    <h2>Create Your Tickethive Account</h2>
+    <p>Join the event revolution!</p>
+
+    <label for="fullname">Full Name</label>
+    <input type="text" id="fullname" placeholder="John Doe" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" placeholder="you@example.com" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" placeholder="+1234567890" required>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Create a password" required>
+
+    <button type="submit">Register</button>
+
+    <p class="login-link">Already have an account? <a href="http://127.0.0.1:5503/login/login.html#">Login</a></p>
+  </form>
+
+  <div class="verify-form" id="verifyForm" style="display: none;">
+    <h2>Verify Your Account</h2>
+    <p>We’ve sent a verification code to your phone.</p>
+
+    <label for="code">Enter Verification Code</label>
+    <input type="text" id="code" placeholder="e.g. 123456" required>
+
+    <button onclick="verifyCode()">Verify</button>
+  </div>
+</div>
+
+</body>
+</html>
